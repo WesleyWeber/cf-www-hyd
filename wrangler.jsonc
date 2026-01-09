@@ -9,7 +9,13 @@
 	"compatibility_date": "2025-04-03",
 	"observability": {
 		"enabled": true
-	}
+	},
+	"routes": [{
+      "pattern": "www.howyoudoin.net/*",
+      "zone_name": "howyoudoin.net"
+    }]
+
+
 	/**
 	 * Smart Placement
 	 * Docs: https://developers.cloudflare.com/workers/configuration/smart-placement/#smart-placement
