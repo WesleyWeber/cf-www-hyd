@@ -3,7 +3,7 @@ export default {
     const html = `<!DOCTYPE html>
 
 <body style="background-color: black; color: rgb(122, 231, 122)">
-  <table align="center" border="0" cellpadding="8" cellspacing="0" style="
+  <table align="center" border="1" cellpadding="8" cellspacing="0" style="
       font-family: 'Courier New', monospace;
       color: rgb(122, 231, 122);
       background-color: #000;
@@ -29,7 +29,15 @@ export default {
         ? HOW YOU DOIN ?
       </th>
     </tr>
-    <tr>
+    <tr style="
+        background: repeating-linear-gradient(
+          0deg,
+          rgba(169, 173, 169, 0.26),
+          rgba(169, 173, 169, 0.26) 1px,
+          rgba(0, 0, 0, 0) 2px,
+          rgba(0, 0, 0, 0) 4px
+        );
+      ">
       <td style="
           border-right: 2px solid rgb(122, 231, 122);
           padding: 10px;
@@ -58,6 +66,29 @@ export default {
         <img src="https://services.swpc.noaa.gov/images/aurora-forecast-northern-hemisphere.jpg" height="530"
           style="border: 2px solid rgb(122, 231, 122)" />
       </td>
+    <tr style="
+        background: repeating-linear-gradient(
+          0deg,
+          rgba(169, 173, 169, 0.26),
+          rgba(169, 173, 169, 0.26) 1px,
+          rgba(0, 0, 0, 0) 2px,
+          rgba(0, 0, 0, 0) 4px
+        );
+      ">
+      <td colspan=2 align="center" style="
+          padding: 10px;
+          background: repeating-linear-gradient(
+            0deg,
+            rgba(169, 173, 169, 0.26),
+            rgba(169, 173, 169, 0.26) 1px,
+            rgba(0, 0, 0, 0) 2px,
+            rgba(0, 0, 0, 0) 4px
+          );
+        ">
+        <img src="https://www.sws.bom.gov.au/Images/HF%20Systems/Global%20HF/T%20Index%20Map/West/tindex.png"
+           style="border: 2px solid rgb(122, 231, 122)" />
+      </td>
+    </tr>
     </tr>
     <tr style="
         background: repeating-linear-gradient(
