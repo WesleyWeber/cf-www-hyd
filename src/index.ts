@@ -63,7 +63,7 @@ export default {
             rgba(0, 0, 0, 0) 4px
           );
         ">
-        <img src="https://services.swpc.noaa.gov/images/aurora-forecast-northern-hemisphere.jpg" height="530"
+        <img src="https://services.swpc.noaa.gov/images/aurora-forecast-northern-hemisphere.jpg" width="530"
           style="border: 2px solid rgb(122, 231, 122)" />
       </td>
     <tr style="
@@ -75,7 +75,8 @@ export default {
           rgba(0, 0, 0, 0) 4px
         );
       ">
-      <td colspan=2 align="center" style="
+      <td></td>
+      <td colspan=1 align="center" style="
           padding: 10px;
           background: repeating-linear-gradient(
             0deg,
@@ -85,8 +86,11 @@ export default {
             rgba(0, 0, 0, 0) 4px
           );
         ">
-        <img src="https://www.sws.bom.gov.au/Images/HF%20Systems/Global%20HF/T%20Index%20Map/West/tindex.png"
-           style="border: 2px solid rgb(122, 231, 122)" />
+        <img src="https://www.sws.bom.gov.au/Images/HF%20Systems/Global%20HF/T%20Index%20Map/West/tindex.png" width="530"
+          style="border: 2px solid rgb(122, 231, 122)" />
+          <br>
+        <img src="https://www.sws.bom.gov.au/Images/HF%20Systems/Global%20HF/Ionospheric%20Map/West/fof2_maps.png" width="530"
+          style="border: 2px solid rgb(122, 231, 122)" /> 
       </td>
     </tr>
     </tr>
