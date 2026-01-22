@@ -1,7 +1,6 @@
 export default {
   async fetch(request): Promise<Response> {
     const html = `<!DOCTYPE html>
-
 <body style="background-color: black; color: rgb(122, 231, 122)">
   <table align="center" border="1" cellpadding="8" cellspacing="0" style="
       font-family: 'Courier New', monospace;
