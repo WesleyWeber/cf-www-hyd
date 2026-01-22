@@ -38,7 +38,9 @@ export default {
           rgba(0, 0, 0, 0) 4px
         );
       ">
-      <td style="
+      <td rowspan="2"
+      
+        style="
           border-right: 2px solid rgb(122, 231, 122);
           padding: 10px;
           background: repeating-linear-gradient(
@@ -50,7 +52,7 @@ export default {
           );
         ">
         <a href="https://www.hamqsl.com/solar.html" title="Click to add Solar-Terrestrial Data to your website!">
-          <img src="https://www.hamqsl.com/solarn0nbh.php" style="border: 2px solid rgb(122, 231, 122)" />
+          <img src="https://www.hamqsl.com/solarn0nbh.php" style="border: 2px solid rgb(122, 231, 122)" height="2028"/>
         </a>
       </td>
       <td style="
@@ -63,7 +65,7 @@ export default {
             rgba(0, 0, 0, 0) 4px
           );
         ">
-        <img src="https://services.swpc.noaa.gov/images/aurora-forecast-northern-hemisphere.jpg" width="530"
+        <img src="https://services.swpc.noaa.gov/images/aurora-forecast-northern-hemisphere.jpg" width="800"
           style="border: 2px solid rgb(122, 231, 122)" />
       </td>
     <tr style="
@@ -75,8 +77,8 @@ export default {
           rgba(0, 0, 0, 0) 4px
         );
       ">
-      <td></td>
-      <td colspan=1 align="center" style="
+     
+      <td align="center" style="
           padding: 10px;
           background: repeating-linear-gradient(
             0deg,
@@ -86,10 +88,10 @@ export default {
             rgba(0, 0, 0, 0) 4px
           );
         ">
-        <img src="https://www.sws.bom.gov.au/Images/HF%20Systems/Global%20HF/T%20Index%20Map/West/tindex.png" width="530"
+        <img src="https://www.sws.bom.gov.au/Images/HF%20Systems/Global%20HF/T%20Index%20Map/West/tindex.png" width="800"
           style="border: 2px solid rgb(122, 231, 122)" />
           <br>
-        <img src="https://www.sws.bom.gov.au/Images/HF%20Systems/Global%20HF/Ionospheric%20Map/West/fof2_maps.png" width="530"
+        <img src="https://www.sws.bom.gov.au/Images/HF%20Systems/Global%20HF/Ionospheric%20Map/West/fof2_maps.png" width="800"
           style="border: 2px solid rgb(122, 231, 122)" /> 
       </td>
     </tr>
@@ -113,7 +115,9 @@ export default {
     </tr>
 
   </table>
-</body>`;
+</body>
+
+`;
 
     return new Response(html, {
       headers: {
