@@ -1,6 +1,7 @@
 export default {
   async fetch(request): Promise<Response> {
     const html = `<!DOCTYPE html>
+
 <body style="background-color: black; color: rgb(122, 231, 122)">
   <table align="center" border="1" cellpadding="8" cellspacing="0" style="
       font-family: 'Courier New', monospace;
@@ -37,9 +38,7 @@ export default {
           rgba(0, 0, 0, 0) 4px
         );
       ">
-      <td rowspan="2"
-      
-        style="
+      <td style="
           border-right: 2px solid rgb(122, 231, 122);
           padding: 10px;
           background: repeating-linear-gradient(
@@ -51,7 +50,7 @@ export default {
           );
         ">
         <a href="https://www.hamqsl.com/solar.html" title="Click to add Solar-Terrestrial Data to your website!">
-          <img src="https://www.hamqsl.com/solarn0nbh.php" style="border: 2px solid rgb(122, 231, 122)" height="2028"/>
+          <img src="https://www.hamqsl.com/solarn0nbh.php" style="border: 2px solid rgb(122, 231, 122)" />
         </a>
       </td>
       <td style="
@@ -64,8 +63,14 @@ export default {
             rgba(0, 0, 0, 0) 4px
           );
         ">
-        <img src="https://services.swpc.noaa.gov/images/aurora-forecast-northern-hemisphere.jpg" width="800"
+        <img src="https://services.swpc.noaa.gov/images/aurora-forecast-northern-hemisphere.jpg" width="530"
           style="border: 2px solid rgb(122, 231, 122)" />
+
+          
+
+        <img src="https://weather.rootcellar.workers.dev/image/1" width="530"
+          style="border: 2px solid rgb(122, 231, 122)" />
+
       </td>
     <tr style="
         background: repeating-linear-gradient(
@@ -76,8 +81,8 @@ export default {
           rgba(0, 0, 0, 0) 4px
         );
       ">
-     
-      <td align="center" style="
+      <td></td>
+      <td colspan=1 align="center" style="
           padding: 10px;
           background: repeating-linear-gradient(
             0deg,
@@ -87,10 +92,10 @@ export default {
             rgba(0, 0, 0, 0) 4px
           );
         ">
-        <img src="https://www.sws.bom.gov.au/Images/HF%20Systems/Global%20HF/T%20Index%20Map/West/tindex.png" width="800"
+        <img src="https://www.sws.bom.gov.au/Images/HF%20Systems/Global%20HF/T%20Index%20Map/West/tindex.png" width="530"
           style="border: 2px solid rgb(122, 231, 122)" />
           <br>
-        <img src="https://www.sws.bom.gov.au/Images/HF%20Systems/Global%20HF/Ionospheric%20Map/West/fof2_maps.png" width="800"
+        <img src="https://www.sws.bom.gov.au/Images/HF%20Systems/Global%20HF/Ionospheric%20Map/West/fof2_maps.png" width="530"
           style="border: 2px solid rgb(122, 231, 122)" /> 
       </td>
     </tr>
