@@ -66,6 +66,7 @@ export default {
         <img src="https://services.swpc.noaa.gov/images/aurora-forecast-northern-hemisphere.jpg" width="530"
           style="border: 2px solid rgb(122, 231, 122)" />
 
+        <br>
           
 
         <img src="https://weather.rootcellar.workers.dev/image/1" width="530"
